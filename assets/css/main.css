@@ -267,7 +267,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px;
+		border-bottom: solid 3px;
 		margin: 3rem 0;
 	}
 
@@ -286,7 +286,11 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+	.single-article hr {
+		margin: 30px -128px 90px;
+		border: 0;
+		border-top: 4px solid #000000;
+	}
 	input, select, textarea {
 		color: #212931;
 	}
@@ -302,11 +306,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #212931;
+		color: #312122;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #312221;
 	}
 
 	blockquote {
@@ -319,7 +323,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #000000;
 	}
 
 /* Row */
@@ -2959,7 +2963,7 @@ input, select, textarea {
 			}
 
 			header.major > .date {
-				font-size: 1rem;
+				font-size: 2rem;
 				margin: 0 0 4rem 0;
 			}
 
@@ -4496,7 +4500,7 @@ input, select, textarea {
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: #020202;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
