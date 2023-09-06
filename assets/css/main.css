@@ -3249,7 +3249,7 @@ input, select, textarea {
 			#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
-				height: 100vh;
+				height: 100svh;
 			}
 
 		#wrapper.fade-in:before {
@@ -3314,7 +3314,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 100svh;
 	}
 
 		#intro input, #intro select, #intro textarea {
