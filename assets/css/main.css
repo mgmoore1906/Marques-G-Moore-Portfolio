@@ -3615,7 +3615,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(100, 94, 94, 0.175);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3649,7 +3649,7 @@ input, select, textarea {
 
 		#nav a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(100, 94, 94, 0.175);;
 		}
 
 			#nav a:hover {
@@ -3670,7 +3670,7 @@ input, select, textarea {
 		}
 
 		#nav code {
-			background: rgba(255, 255, 255, 0.075);
+			background: rgba(100, 94, 94, 0.175);
 			border-color: #ffffff;
 		}
 
@@ -3718,19 +3718,19 @@ input, select, textarea {
 
 					#nav ul.links li a:hover {
 						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.1);
+						background-color: rgba(100, 94, 94, 0.175);
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: rgba(100, 94, 94, 0.175);
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #ffffff
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #ffffff !important;
 						}
 
 		#nav ul.icons {
@@ -4622,8 +4622,9 @@ input, select, textarea {
 			top: 0;
 			vertical-align: middle;
 			width: 7rem;
-		}
+		    }
 
+	
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
@@ -4687,3 +4688,6 @@ input, select, textarea {
 		}
 
 	}
+	/* Centering the nav bar tabs */
+
+  
