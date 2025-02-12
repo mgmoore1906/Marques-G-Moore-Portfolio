@@ -4690,4 +4690,8 @@ input, select, textarea {
 	}
 	/* Centering the nav bar tabs */
 
-  
+	#main {
+		background-color: #f0f8ff; /* Light blue background */
+		padding: 20px; /* Add some padding for better spacing */
+		border-radius: 8px; /* Optional: Rounded corners for a sleek look */
+	}
